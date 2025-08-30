@@ -7,7 +7,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-APP_SCRIPT = "app.py"
+APP_SCRIPT = "main.py"
 CHECK_INTERVAL = 300  # 5 minutes
 PING_INTERVAL = 200   # 200 seconds to prevent Render sleep
 RENDER_URL = "http://aibot-dark.onrender.com/"  # <-- Replace with your actual Render URL 
