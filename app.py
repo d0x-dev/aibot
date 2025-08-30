@@ -10,7 +10,7 @@ app = Flask(__name__)
 APP_SCRIPT = "app.py"
 CHECK_INTERVAL = 300  # 5 minutes
 PING_INTERVAL = 200   # 200 seconds to prevent Render sleep
-RENDER_URL = "https://deployx-hzd6.onrender.com"  # <-- Replace with your actual Render URL
+RENDER_URL = "http://aibot-dark.onrender.com/"  # <-- Replace with your actual Render URL 
 
 process = None
 
