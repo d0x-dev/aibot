@@ -45,7 +45,6 @@ def create_payment_method(fullz):
         cc, mes, ano, cvv = fullz.split("|")
 
         accounts = [
-            ("becaf11944@besaies.com", "Darkboy336@1234")
             ("soxel63632@skateru.com", "Darkboy336@1234"),
         ]
 
